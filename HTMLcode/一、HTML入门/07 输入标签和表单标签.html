@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>07 输入标签和表单标签</title>
+	</head>
+	<body>
+		<form  action="https:www.baidu.com" method="get">
+			<table>
+				<tr>
+					<td>账号</td>
+					<td><input type="text" name="username"/></td>
+				</tr>
+				<tr>
+					<td>密码</td>
+					<td><input type="password" name="password" />  </td>
+				</tr>
+				<tr>
+					<td>性别</td>
+					<td>
+						<input type="radio" name="gender" value = "male" checked />男
+						<input type="radio" name="gender" value = "female"/>女
+					</td>
+				</tr>
+				<tr>
+					<td>爱好</td>
+					<td>
+						<input type="checkbox" value="singing"/>唱 
+						<input type="checkbox" value="dancing"/>跳
+						<input type="checkbox" value="raping"/>rap 
+					  	<input type="checkbox" value="playingBasketball"/>篮球       
+					</td>
+				</tr>
+				<tr>
+					<td>照片</td>
+					<td><input type="file" name=""/>  </td>
+				</tr>
+				<tr>
+					<td>个人简介</td>
+					<td>
+						<textarea style="width: 200px; 
+									height :120px;
+									border: 2px 
+									solid darkcyan;"
+									name="introduction"></textarea>	
+					</td>
+				</tr>
+				<tr>
+					<td>地区</td>
+					<td>
+						<select name="hometown">
+				        	<option value="Heilongjiang">黑龙江</option>
+				        	<option value="Jilin">吉林</option>
+				        	<option value="Liaoning">辽宁</option>
+				        	<option selected>-请选择你的地区-</option>
+		       			</select>
+					</td>
+				</tr>
+			</table><br /><hr /><br />
+		<input type="submit" value="提 交" />
+		<input type="reset" value="清 空"/>
+		</form>
+	</body >
+</html>

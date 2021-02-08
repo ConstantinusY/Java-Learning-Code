@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>06 表格标签</title>
+	</head>
+	<body>
+		<!--表格-->
+		<table   width="500px" cellspacing="0.05px" align="center" border="2px">
+			<thead bgcolor="lightyellow">
+				<tr><!--行-->
+					<th>name</th><!--列-->
+					<th>age</th>
+					<th>class</th>
+					<th>score</th>
+				</tr>
+			</thead>
+			<tbody bgcolor="lightblue">
+				<tr>
+					<td>A</td>
+					<td>11.4514</td>
+					<td>Class 1</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>B</td>
+					<td>19.1919810</td>
+					<td>Class 10</td>
+					<td>100</td>
+				</tr>
+			</tbody>
+			<tfoot bgcolor="aquamarine">
+				<tr>
+					<td>总人数</td>
+					<td>2</td>
+					<td>总分数</td>
+					<td>200</td>
+				</tr>
+			</tfoot>
+		</table>
+		<br /><hr /><br />
+			
+		<!--表格的跨行和跨列-->
+		<table   width="500px" cellspacing="0.05px" align="center" border="2px">
+		<thead>
+			<tr>
+				<th colspan="3">学生成绩单</th>
+			</tr>
+			<tr>
+				<td>姓名</td>
+				<td>科目</td>
+				<td>分数</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="3">张三</td>
+				<td>数学</td>
+				<td>90</td>
+			</tr>
+			<tr>
+				<td>语文</td>
+				<td>95</td>
+			</tr>
+			<tr>
+				<td>英语</td>
+				<td>120</td>
+			</tr>
+		</tbody>
+		</table>
+		<br /><hr  /><br />
+		
+		<!--表格嵌套-->
+		<table   width="500px" cellspacing="0.05px" align="center" border="2px">
+			<thead>
+				<tr>
+					<th colspan="3">学生成绩单</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>姓名</td>
+					<td>科目</td>
+					<td>分数</td>
+				</tr>
+				<tr>
+					<td rowspan="3">李四</td>
+					<td colspan="2" rowspan="3" >
+					<table border="1px" cellspacing="0px" width="100%">
+						<tr>
+							<td>数学</td>
+							<td>90</td>
+						</tr>
+						<tr>
+							<td>语文</td>
+							<td>105</td>
+						</tr>
+						<tr>
+							<td>英语</td>
+							<td>120</td>
+						</tr>
+					</table>	
+				</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</body>
+</html>
