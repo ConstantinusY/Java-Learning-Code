@@ -20,8 +20,8 @@
 *.rar
 
 *.iml
-.idea/
-.out/
+/idea/
+/out/
 *.project
 *.ipr
 *.iws
