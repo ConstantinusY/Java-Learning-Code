@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="打开文件" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e40592fb-d64b-421e-b147-c71b98b8aa03" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +44,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/code_p4/code12.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/code_p6/code06.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/code_p3/code05.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/code_p4/code07.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/code_p4/code12.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/code_p6/code06.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/code_p6/code11_ArraysUtil.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1o6E6GUvwie4ysQlpnGT4xNwxqd" />
@@ -52,9 +56,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/code_p8/code03" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -62,13 +70,21 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="应用程序.MainMethod">
-    <configuration name="MainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.MainMethod" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\src\code_p8\code03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\src\code_p8\code03" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.code06">
+    <configuration name="code03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p8.code03.code03" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.*" />
+          <option name="PATTERN" value="code_p8.code03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p7.code07.code07" />
+    <configuration name="code04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p8.code04.code04" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p7.code07.*" />
+          <option name="PATTERN" value="code_p8.code04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code07_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p7.code07.code07_1" />
+    <configuration name="code05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p8.code05.code05" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p7.code07.*" />
+          <option name="PATTERN" value="code_p8.code05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p7.code09.code09" />
+    <configuration name="code06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p8.code06.code06" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p7.code09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="code10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p7.code10.code10" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code_p7.code10.*" />
+          <option name="PATTERN" value="code_p8.code06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +144,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaSE/code_p8/code03/ArrayUtil_help/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.MainMethod" />
-        <item itemvalue="应用程序.code10" />
-        <item itemvalue="应用程序.code09" />
-        <item itemvalue="应用程序.code07_1" />
-        <item itemvalue="应用程序.code07" />
+        <item itemvalue="应用程序.code06" />
+        <item itemvalue="应用程序.code04" />
+        <item itemvalue="应用程序.code05" />
+        <item itemvalue="JavaScript 调试.index.html" />
+        <item itemvalue="应用程序.code03" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +187,9 @@
       <workItem from="1613014015291" duration="7266000" />
       <workItem from="1613100762010" duration="40000" />
       <workItem from="1613100829826" duration="3292000" />
-      <workItem from="1613198690674" duration="9080000" />
+      <workItem from="1613198690674" duration="12538000" />
+      <workItem from="1613219575177" duration="5353000" />
+      <workItem from="1613288872675" duration="2423000" />
     </task>
     <servers />
   </component>
