@@ -81,26 +81,13 @@
       <recent name="code_p8.code12" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.code17">
-    <configuration name="code12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p8.code12.code12" />
+  <component name="RunManager" selected="应用程序.code02">
+    <configuration name="code02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p9.code02.code02" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p8.code12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="code14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p8.code14.code14" />
-      <module name="JavaSE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code_p8.code14.*" />
+          <option name="PATTERN" value="code_p9.code02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,26 +134,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="code18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p8.code18.code18" />
+      <module name="JavaSE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code_p8.code18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.code02" />
+        <item itemvalue="应用程序.code18" />
         <item itemvalue="应用程序.code17" />
         <item itemvalue="应用程序.code16" />
         <item itemvalue="应用程序.code15" />
-        <item itemvalue="应用程序.code14" />
-        <item itemvalue="应用程序.code12" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +206,8 @@
       <workItem from="1613355670590" duration="8936000" />
       <workItem from="1613381255466" duration="111000" />
       <workItem from="1613381387793" duration="558000" />
-      <workItem from="1613381975531" duration="3033000" />
+      <workItem from="1613381975531" duration="4863000" />
+      <workItem from="1613395201867" duration="2609000" />
     </task>
     <servers />
   </component>
