@@ -1,6 +1,6 @@
 package code_p9.code05;
 
-public class Person implements Compareable{
+public class Person implements Comparable {
     public int age;
     public String name;
 
