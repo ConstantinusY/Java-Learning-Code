@@ -33,6 +33,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +72,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -86,13 +88,13 @@
       <recent name="code_p8.code12" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LaunchGameTest">
-    <configuration name="L5_7_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p9.code11.L5_7_5" />
+  <component name="RunManager" selected="应用程序.code12">
+    <configuration name="code08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p10.code08.code08" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p9.code11.*" />
+          <option name="PATTERN" value="code_p10.code08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaunchGameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example02_RockPaperScissorsGame.test.LaunchGameTest" />
+    <configuration name="code09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p10.code09.code09" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example02_RockPaperScissorsGame.test.*" />
+          <option name="PATTERN" value="code_p10.code09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example02_RockPaperScissorsGame.util.Util" />
+    <configuration name="code10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p10.code10.code10" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example02_RockPaperScissorsGame.util.*" />
+          <option name="PATTERN" value="code_p10.code10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +129,11 @@
       </method>
     </configuration>
     <configuration name="code11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p9.code11.code11" />
+      <option name="MAIN_CLASS_NAME" value="code_p10.code11.code11" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p9.code11.*" />
+          <option name="PATTERN" value="code_p10.code11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code11_exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p9.code11.code11_exception" />
+    <configuration name="code12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code_p10.code12.code12" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p9.code11.*" />
+          <option name="PATTERN" value="code_p10.code12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,26 +154,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.LaunchGameTest" />
-        <item itemvalue="应用程序.Util" />
-        <item itemvalue="应用程序.L5_7_5" />
+        <item itemvalue="应用程序.code12" />
         <item itemvalue="应用程序.code11" />
-        <item itemvalue="应用程序.code11_exception" />
+        <item itemvalue="应用程序.code10" />
+        <item itemvalue="应用程序.code09" />
+        <item itemvalue="应用程序.code08" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +218,16 @@
       <workItem from="1613445292778" duration="9194000" />
       <workItem from="1613817000436" duration="922000" />
       <workItem from="1613824349862" duration="7222000" />
+      <workItem from="1613873718916" duration="1308000" />
+      <workItem from="1614044356466" duration="14000" />
+      <workItem from="1614044397377" duration="4697000" />
+      <workItem from="1614992275282" duration="440000" />
+      <workItem from="1614995002387" duration="20000" />
+      <workItem from="1614995060434" duration="66000" />
+      <workItem from="1614995165870" duration="32000" />
+      <workItem from="1614995322752" duration="13000" />
+      <workItem from="1614995359662" duration="370000" />
+      <workItem from="1614995747875" duration="7646000" />
     </task>
     <servers />
   </component>
@@ -236,6 +246,11 @@
           <url>file://$PROJECT_DIR$/src/code_p7/code06/Student.java</url>
           <line>14</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/code_p10/code02/code02.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
