@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/example_cases/11123123.iml" filepath="$PROJECT_DIR$/example_cases/11123123.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSE.iml" filepath="$PROJECT_DIR$/JavaSE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_cases/aaa.iml" filepath="$PROJECT_DIR$/example_cases/aaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_P6/code_P6.iml" filepath="$PROJECT_DIR$/code_P6/code_P6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p1/code_p1.iml" filepath="$PROJECT_DIR$/code_p1/code_p1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p10/code_p10.iml" filepath="$PROJECT_DIR$/code_p10/code_p10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p2/code_p2.iml" filepath="$PROJECT_DIR$/code_p2/code_p2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p3/code_p3.iml" filepath="$PROJECT_DIR$/code_p3/code_p3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p4/code_p4.iml" filepath="$PROJECT_DIR$/code_p4/code_p4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p5/code_p5.iml" filepath="$PROJECT_DIR$/code_p5/code_p5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p7/code_p7.iml" filepath="$PROJECT_DIR$/code_p7/code_p7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p8/code_p8.iml" filepath="$PROJECT_DIR$/code_p8/code_p8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code_p9/code_p9.iml" filepath="$PROJECT_DIR$/code_p9/code_p9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_cases/example_cases.iml" filepath="$PROJECT_DIR$/example_cases/example_cases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_cases/exmp01_LotterySystem.iml" filepath="$PROJECT_DIR$/example_cases/exmp01_LotterySystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example_cases/exmp01_Lottery_System.iml" filepath="$PROJECT_DIR$/example_cases/exmp01_Lottery_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other_code/other_code.iml" filepath="$PROJECT_DIR$/other_code/other_code.iml" />
     </modules>
   </component>
 </project>

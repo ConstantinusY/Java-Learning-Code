@@ -47,11 +47,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/code_p3/code05.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/code_p4/code07.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/code_p4/code12.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/code_p6/code06.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/code_p6/code11_ArraysUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code_p3/src/code05.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code_p4/src/code07.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code_p4/src/code12.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code_P6/src/code06.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/code_P6/src/code11_ArraysUtil.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1o6E6GUvwie4ysQlpnGT4xNwxqd" />
   <component name="ProjectViewState">
@@ -63,13 +63,15 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/code_p8/code03" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -79,6 +81,7 @@
       <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\src\code_p8\code03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\other_code" />
       <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\src\code_p8\code03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -88,13 +91,13 @@
       <recent name="code_p8.code12" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.code12">
-    <configuration name="code08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p10.code08.code08" />
+  <component name="RunManager" selected="应用程序.HelloWorld">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld.HelloWorld" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p10.code08.*" />
+          <option name="PATTERN" value="HelloWorld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="code09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p10.code09.code09" />
+      <option name="MAIN_CLASS_NAME" value="code09.code09" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p10.code09.*" />
+          <option name="PATTERN" value="code09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="code10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p10.code10.code10" />
+      <option name="MAIN_CLASS_NAME" value="code10.code10" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p10.code10.*" />
+          <option name="PATTERN" value="code10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +132,11 @@
       </method>
     </configuration>
     <configuration name="code11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p10.code11.code11" />
+      <option name="MAIN_CLASS_NAME" value="code11.code11" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p10.code11.*" />
+          <option name="PATTERN" value="code11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +145,11 @@
       </method>
     </configuration>
     <configuration name="code12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code_p10.code12.code12" />
+      <option name="MAIN_CLASS_NAME" value="code12.code12" />
       <module name="JavaSE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code_p10.code12.*" />
+          <option name="PATTERN" value="code12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,24 +157,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.HelloWorld" />
         <item itemvalue="应用程序.code12" />
         <item itemvalue="应用程序.code11" />
         <item itemvalue="应用程序.code10" />
         <item itemvalue="应用程序.code09" />
-        <item itemvalue="应用程序.code08" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +233,9 @@
       <workItem from="1614995322752" duration="13000" />
       <workItem from="1614995359662" duration="370000" />
       <workItem from="1614995747875" duration="7646000" />
+      <workItem from="1615017413319" duration="782000" />
+      <workItem from="1615203582008" duration="273000" />
+      <workItem from="1615689557615" duration="2323000" />
     </task>
     <servers />
   </component>
@@ -238,17 +246,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/code_p4/code07.java</url>
+          <url>file://$PROJECT_DIR$/code_p4/src/code07.java</url>
           <line>117</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/code_p7/code06/Student.java</url>
+          <url>file://$PROJECT_DIR$/code_p7/src/code06/Student.java</url>
           <line>14</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/code_p10/code02/code02.java</url>
+          <url>file://$PROJECT_DIR$/code_p10/src/code02/code02.java</url>
           <line>5</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
