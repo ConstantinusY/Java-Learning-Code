@@ -3,8 +3,8 @@ package my_stopwatch.swForms;
 import my_stopwatch.enums.SWStatus;
 import my_stopwatch.exceptions.*;
 
-public class Stopwatch extends AbstractStopwatch{
-    public Stopwatch() {    }
+public class MilliStopwatch extends AbstractStopwatch {
+    public MilliStopwatch() { }
     /**
      * 读秒表
      * @return 返回秒表当前时间
@@ -12,7 +12,7 @@ public class Stopwatch extends AbstractStopwatch{
 
     public long Time() {
         //直接调用父类方法得到结果
-        return super.Time((System.currentTimeMillis()/1000));
+        return super.Time(System.currentTimeMillis());
     }
 
     /**
@@ -22,7 +22,7 @@ public class Stopwatch extends AbstractStopwatch{
      */
     public String Time(String a){
         //直接调用父类方法得到结果
-        return super.Time((System.currentTimeMillis()/1000), a);
+        return super.Time(System.currentTimeMillis(), a);
     }
 
     /**
@@ -34,10 +34,10 @@ public class Stopwatch extends AbstractStopwatch{
         switch (currentStatus){
             //判断状态异常
             case running:
-                throw new SWAlreadyRunningException("计时器已在运行！",Time((System.currentTimeMillis()/1000),"sec"));
+                throw new SWAlreadyRunningException("计时器已在运行！",Time(System.currentTimeMillis(),"ms"));
             default:
                 //记录计时开始时间并更新状态
-                sTime = (System.currentTimeMillis()/1000);
+                sTime = System.currentTimeMillis();
                 currentStatus = SWStatus.running;
                 //清空暂停时间段
                 pauseTimes.clear();
@@ -53,7 +53,7 @@ public class Stopwatch extends AbstractStopwatch{
         switch (currentStatus){
             //判断状态异常
             case stopped:
-                throw new SWAlreadyStoppedException("计时器已经停止了！",Time((System.currentTimeMillis()/1000),"sec"));
+                throw new SWAlreadyStoppedException("计时器已经停止了！",Time(System.currentTimeMillis(),"ms"));
             default:
                 //更新状态
                 currentStatus = SWStatus.stopped;
@@ -70,12 +70,12 @@ public class Stopwatch extends AbstractStopwatch{
         switch (currentStatus){
             //判断状态异常
             case stopped:
-                throw new SWAlreadyStoppedException("计时器未启动！",Time((System.currentTimeMillis()/1000),"sec"));
+                throw new SWAlreadyStoppedException("计时器未启动！",Time(System.currentTimeMillis(),"ms"));
             case running:
-                throw new SWAlreadyRunningException("计时器已在运行！",Time((System.currentTimeMillis()/1000),"sec"));
+                throw new SWAlreadyRunningException("计时器已在运行！",Time(System.currentTimeMillis(),"ms"));
             default:
                 //将本段暂停时间加入所有暂停时间段列表
-                pauseTimes.add((System.currentTimeMillis()/1000)-pSTime);
+                pauseTimes.add(System.currentTimeMillis()-pSTime);
                 //更新状态
                 currentStatus = SWStatus.running;
         }
@@ -91,12 +91,12 @@ public class Stopwatch extends AbstractStopwatch{
         switch (currentStatus) {
             //判断状态异常
             case paused:
-                throw new SWAlreadyPausedException("计时器已暂停！", Time((System.currentTimeMillis()/1000), "sec"));
+                throw new SWAlreadyPausedException("计时器已暂停！", Time(System.currentTimeMillis(), "ms"));
             case stopped:
-                throw new SWAlreadyStoppedException("计时器未启动！", Time((System.currentTimeMillis()/1000), "sec"));
+                throw new SWAlreadyStoppedException("计时器未启动！", Time(System.currentTimeMillis(), "ms"));
             default:
                 //记录暂停开始时间并更新状态
-                pSTime = (System.currentTimeMillis()/1000);
+                pSTime = System.currentTimeMillis();
                 currentStatus = SWStatus.paused;
         }
     }

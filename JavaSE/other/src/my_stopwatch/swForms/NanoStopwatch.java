@@ -1,83 +1,105 @@
 package my_stopwatch.swForms;
 
-import my_stopwatch.enums.SWStatus;
+import my_stopwatch.enums.*;
 import my_stopwatch.exceptions.*;
 
 public class NanoStopwatch extends AbstractStopwatch{
-    public NanoStopwatch() { }
+    public NanoStopwatch() {
+    }
 
-    public long Time(boolean changeSTime, long changeTarget) throws SWTimeOverflowException{
-        long resTime = eTime - sTime;
-        if (changeSTime){
-            sTime = changeTarget;
-        }
-        if (resTime >= Long.MAX_VALUE){
-            throw new SWTimeOverflowException("记录时间过长，计时器爆掉了。",resTime);
-        }else{
-            return resTime;
+    /**
+     * 读秒表
+     * @return 返回秒表当前时间
+     */
+
+    public long Time() {
+        //直接调用父类方法得到结果
+        return super.Time(System.nanoTime());
+    }
+
+    /**
+     * 读秒表字符串版
+     * @param a 单位
+     * @return 返回秒表当前时间的字符串版本
+     */
+    public String Time(String a){
+        //直接调用父类方法得到结果
+        return super.Time(System.nanoTime(), a);
+    }
+
+    /**
+     * 开始计时
+     * 当前状态为停止时，开始计时；当前状态为暂停时，强制开始新一轮计时。
+     * @throws SWAlreadyRunningException 状态已为运行异常
+     */
+    public void startSW() throws SWAlreadyRunningException {
+        switch (currentStatus){
+            //判断状态异常
+            case running:
+                throw new SWAlreadyRunningException("计时器已在运行！",Time(System.nanoTime(),"ns"));
+            default:
+                //记录计时开始时间并更新状态
+                sTime = System.nanoTime();
+                currentStatus = SWStatus.running;
+                //清空暂停时间段
+                pauseTimes.clear();
         }
     }
 
     /**
-     * 开始计时，会将计时归零
+     * 停止计时
+     * 当前状态为运行时，停止计时；当前状态为暂停时，强制停止计时。
+     * @throws SWAlreadyStoppedException 当前状态已经为停止异常
      */
-    public void startSW(){
-        if (currentStatus == SWStatus.running){
-            throw new SWAlreadyRunningException("计时器已在运行！",System.nanoTime()-sTime);
-        }
-        else {
-            sTime = System.nanoTime();
-            currentStatus = SWStatus.running;
-        }
-    }
-
-    /**
-     * 停止计时，会将计时归零
-     * @return 计时器记录的纳秒数
-     * @throws SWTimeOverflowException 时间溢出（过长）异常
-     */
-    public long stopSW() throws SWTimeOverflowException {
-        if(currentStatus == SWStatus.stopped){
-            throw new SWAlreadyStoppedException("计时器已停止！",System.nanoTime()-sTime);
-        }else{
-            eTime = System.nanoTime();
-            currentStatus = SWStatus.stopped;
-            return Time(true,System.nanoTime());
-
+    public void stopSW() throws SWAlreadyStoppedException {
+        switch (currentStatus){
+            //判断状态异常
+            case stopped:
+                throw new SWAlreadyStoppedException("计时器已经停止了！",Time(System.nanoTime(),"ns"));
+            default:
+                //更新状态
+                currentStatus = SWStatus.stopped;
         }
     }
 
     /**
-     * 继续计时，不会将计时归零
+     * 继续计时
+     * 当前状态为暂停，继续计时
+     * @throws SWAlreadyRunningException 当前状态为运行，未暂停，异常
+     * @throws SWAlreadyStoppedException 当前状态为停止，未开始计时，异常
      */
-    public void continueSW(){
-        if(currentStatus == SWStatus.running){
-            throw new SWAlreadyRunningException("计时器已在运行！",System.nanoTime()-sTime);
-        }else if(currentStatus == SWStatus.stopped) {
-            throw new SWAlreadyStoppedException("计时器未开始！", (System.nanoTime() - sTime));
-        }else {
-            pETime = System.nanoTime();
-            //去掉暂停的时间
-            sTime -= (pSTime-pETime);
-            currentStatus = SWStatus.running;
+    public void continueSW() throws SWAlreadyRunningException, SWAlreadyStoppedException {
+        switch (currentStatus){
+            //判断状态异常
+            case stopped:
+                throw new SWAlreadyStoppedException("计时器未启动！",Time(System.nanoTime(),"ns"));
+            case running:
+                throw new SWAlreadyRunningException("计时器已在运行！",Time(System.nanoTime(),"ns"));
+            default:
+                //将本段暂停时间加入所有暂停时间段列表
+                pauseTimes.add(System.nanoTime()-pSTime);
+                //更新状态
+                currentStatus = SWStatus.running;
         }
     }
 
     /**
-     * 暂停计时，不会将计时归零
-     * @return 计时器记录的时间
-     * @throws SWTimeOverflowException 时间溢出（过长）异常
+     * 暂停计时
+     * 当前状态为运行，继续计时
+     * @throws SWAlreadyPausedException 当前状态为暂停，异常
+     * @throws SWAlreadyStoppedException 当前状态为停止，未开始计时，异常
      */
-    public long pauseSW() throws SWTimeOverflowException {
-        if (currentStatus == SWStatus.paused){
-            throw new SWAlreadyPausedException("计时器已暂停！",System.nanoTime()-sTime);
-        }else if(currentStatus == SWStatus.stopped) {
-            throw new SWAlreadyStoppedException("计时器未开始！", (System.nanoTime() - sTime));
-        }else{
-            pSTime = System.nanoTime();
-            currentStatus = SWStatus.paused;
-            eTime = System.nanoTime();
-            return Time(false,sTime);
+    public void pauseSW() throws SWAlreadyPausedException, SWAlreadyStoppedException {
+        switch (currentStatus) {
+            //判断状态异常
+            case paused:
+                throw new SWAlreadyPausedException("计时器已暂停！", Time(System.nanoTime(), "ns"));
+            case stopped:
+                throw new SWAlreadyStoppedException("计时器未启动！", Time(System.nanoTime(), "ns"));
+            default:
+                //记录暂停开始时间并更新状态
+                pSTime = System.nanoTime();
+                currentStatus = SWStatus.paused;
         }
     }
 }
