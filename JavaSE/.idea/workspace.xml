@@ -4,6 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
     <option name="CUSTOM_SCOPE_NAME" value="打开文件" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e40592fb-d64b-421e-b147-c71b98b8aa03" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +57,15 @@
     <setting file="file://$PROJECT_DIR$/other/src/my_stopwatch/swForms/NanoStopwatch.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/code_p4/src/code07.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="autoscrollToSource" value="true" />
   </component>
@@ -71,25 +83,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/code_p8/code03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code_p11/my_stopwatch.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\src\code_p8\code03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\coding_learning\Java\javaLnCode\JavaSE" />
+      <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\code_p11" />
       <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\other\src" />
       <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\other" />
       <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\temp" />
-      <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\other_code\src" />
-      <recent name="F:\coding_learning\Java\javaLnCode\JavaSE\other_code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="code_p9.code09" />
@@ -98,61 +110,7 @@
       <recent name="code_p8.code12" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TestSW">
-    <configuration name="Manu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example01_LotterySys.Manu" />
-      <module name="example_cases" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example01_LotterySys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="my_stopwatch.test.Test" />
-      <module name="other" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNanoSW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my_stopwatch.test.TestNanoSW" />
-      <module name="other" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my_stopwatch.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="my_stopwatch.test.TestSW" />
-      <module name="other" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my_stopwatch.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.code10">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="example_cases" />
@@ -181,9 +139,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="other_code" />
+    <configuration name="code05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code05" />
+      <module name="code_p11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code07" />
+      <module name="code_p11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code08" />
+      <module name="code_p11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code09" />
+      <module name="code_p11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code10" />
+      <module name="code_p11" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.TestSW" />
-        <item itemvalue="应用程序.TestNanoSW" />
-        <item itemvalue="应用程序.Test" />
-        <item itemvalue="应用程序.Test" />
-        <item itemvalue="应用程序.Manu" />
+        <item itemvalue="应用程序.code10" />
+        <item itemvalue="应用程序.code09" />
+        <item itemvalue="应用程序.code08" />
+        <item itemvalue="应用程序.code07" />
+        <item itemvalue="应用程序.code05" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +259,9 @@
       <workItem from="1615988499178" duration="2642000" />
       <workItem from="1616071433252" duration="2473000" />
       <workItem from="1616231427616" duration="4152000" />
-      <workItem from="1616296164192" duration="61000" />
+      <workItem from="1616296164192" duration="2527000" />
+      <workItem from="1616303011150" duration="3521000" />
+      <workItem from="1616901930614" duration="6348000" />
     </task>
     <servers />
   </component>
@@ -297,6 +285,21 @@
           <url>file://$PROJECT_DIR$/code_p10/src/code02/code02.java</url>
           <line>5</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code_p11/src/code04.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code_p11/src/code06.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code_p11/src/code08.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
