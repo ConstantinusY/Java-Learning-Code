@@ -110,90 +110,60 @@
       <recent name="code_p8.code12" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.code10">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test" />
-      <module name="example_cases" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="应用程序.code06">
+    <configuration name="code02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code02" />
+      <module name="code_p12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="my_stopwatch.test.Test" />
-      <module name="other" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="my_stopwatch.swForms.Stopwatch" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="code03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code03" />
+      <module name="code_p12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code04" />
+      <module name="code_p12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="code05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code05" />
-      <module name="code_p11" />
+      <module name="code_p12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code07" />
-      <module name="code_p11" />
+    <configuration name="code06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code06" />
+      <module name="code_p12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code08" />
-      <module name="code_p11" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="code09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code09" />
-      <module name="code_p11" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="code10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code10" />
-      <module name="code_p11" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.code10" />
-        <item itemvalue="应用程序.code09" />
-        <item itemvalue="应用程序.code08" />
-        <item itemvalue="应用程序.code07" />
+        <item itemvalue="应用程序.code06" />
         <item itemvalue="应用程序.code05" />
+        <item itemvalue="应用程序.code04 (1)" />
+        <item itemvalue="应用程序.code03" />
+        <item itemvalue="应用程序.code02" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +231,10 @@
       <workItem from="1616231427616" duration="4152000" />
       <workItem from="1616296164192" duration="2527000" />
       <workItem from="1616303011150" duration="3521000" />
-      <workItem from="1616901930614" duration="6348000" />
+      <workItem from="1616901930614" duration="6379000" />
+      <workItem from="1616930662733" duration="839000" />
+      <workItem from="1616931629171" duration="922000" />
+      <workItem from="1617020501166" duration="3822000" />
     </task>
     <servers />
   </component>
@@ -287,11 +260,6 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/code_p11/src/code04.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/code_p11/src/code06.java</url>
           <line>10</line>
           <option name="timeStamp" value="25" />
@@ -304,6 +272,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="15" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="28" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
