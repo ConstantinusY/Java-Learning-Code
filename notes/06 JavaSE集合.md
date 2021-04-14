@@ -1245,3 +1245,49 @@ public int size() {
 }
 ```
 
+
+
+## 7 集合补充——Iterator
+
+Iterator专门为遍历集合而生，集合并没有提供专门的遍历的方法  
+
+**Iterator实际上迭代器设计模式的实现**
+
+
+
+#### Iterator的常用方法
+
++ boolean hasNext(): 判断是否存在另一个可访问的元素 
+
++ Object next(): 返回要访问的下一个元素
+
++ void remove(): 删除上次访问返回的对象。
+
+#### 可以使用Iterator遍历的集合
+
++ 层次1：Collection、List、Set可以、Map不可以
+
++ 层次2：提供iterator()方法的就可以将元素交给Iterator;
+
++ 层次3：实现Iterable接口的集合类都可以使用迭代器遍历
+
+#### for-each循环和Iterator的联系
+
++ for-each循环(遍历集合)时，底层使用的是Iterator
+
++ 凡是可以使用for-each循环(遍历的集合)，肯定也可以使用Iterator进行遍历
+
+#### for-each循环和Iterator的区别
+
++ for-each还能遍历数组，Iterator只能遍历集合
+
++ 使用for-each遍历集合时不能删除元素，会抛出异常ConcurrentModificationException使用Iterator遍历合时能删除元素
+  
+
+**Iterator是一个接口，它的实现类在哪里？**
+
+在相应的集合实现类中 ,比如在ArrayList中存在一个内部了Itr implements Iterator
+
+为什么Iterator不设计成一个类，而是一个接口
+
+不同的集合类，底层结构不同，迭代的方式不同，所以提供一个接口，让相应的实现类来实现

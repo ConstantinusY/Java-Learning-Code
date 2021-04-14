@@ -35,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,7 +90,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -110,10 +110,16 @@
       <recent name="code_p8.code12" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.code12">
-    <configuration name="code08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code08" />
-      <module name="code_p12" />
+  <component name="RunManager" selected="应用程序.LaunchShop">
+    <configuration name="LaunchShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example03_ConYShop.front.LaunchShop" />
+      <module name="example_cases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example03_ConYShop.front.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.LaunchShop" />
         <item itemvalue="应用程序.code12" />
         <item itemvalue="应用程序.code11" />
         <item itemvalue="应用程序.code10" />
         <item itemvalue="应用程序.code09" />
-        <item itemvalue="应用程序.code08" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +246,9 @@
       <workItem from="1618112879776" duration="488000" />
       <workItem from="1618113686827" duration="54000" />
       <workItem from="1618114058668" duration="16000" />
-      <workItem from="1618114096940" duration="3570000" />
+      <workItem from="1618114096940" duration="7168000" />
+      <workItem from="1618400821197" duration="630000" />
+      <workItem from="1618401494035" duration="3982000" />
     </task>
     <servers />
   </component>
